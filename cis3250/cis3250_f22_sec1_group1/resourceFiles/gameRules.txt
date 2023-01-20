@@ -1,0 +1,30 @@
+How to play:
+
+You will be given a four-by-four-letter map. It could look something like this:
+   F   G   Q   A
+   I   P   P   Z
+   L   T   U   U
+   D   E   E   A
+
+The game's goal is to find as many words from the map as possible.
+
+Word Restrictions:
+ - The word must be at minimum three letters long.
+ - The letters must be adjacent to one another to form words
+    - Letters can be diagonally adjacent too
+ - A letter can not be repeated right after each other.
+    - For example, in the map above, the top left has the letters F, I, and L. You can NOT spell the word FILL by repeating the L twice
+    - However, you can double back to letters. For example, on the second row, you can spell PIP, by going from P, to I, and back to P
+ - You can not pluralize a word
+    - For Example, Tree is a word, but TREES is not.
+    
+Points:
+
+The size of each word is important and creates a difference in point distribution
+ - 3/4 letters long = 1 Point
+ - 5 letters long = 2 points
+ - 6 letters long = 3 points
+ - 7 letters long = 5 points
+ - 8 or more letters long = 11 points
+
+Press ENTER to continue to main menu...
